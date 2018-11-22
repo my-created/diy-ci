@@ -9,3 +9,4 @@
 5. composer.json 自定义添加 Blade 模板引擎和 Monolog 日志引擎，可以自行使用，日志引擎定义了 library，在 autoload.php 配置文件中添加 Monolog 库即可使用。
 >Blade 被我拆出去了，有时间加进来，加入很简单。
 6. 加入表单验证层，存放表单验证类。（未完成，过几天加入）
+7. 更改 index.php 位置，更加安全，在 \[app\]/public/ 下，下面还放着静态资源。如： home/public/ 下面有 index.php 和 static 静态资源目录。
